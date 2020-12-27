@@ -1,0 +1,294 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                text-align: center;
+                background-color: rgb(250, 240, 240);
+            }
+            
+            @media screen and (min-width: 1920px) {
+                .container {
+                    text-align: center;
+                    margin: auto;
+                    position: relative;
+                    top: 170px;
+                    width: 450px;
+                    height: 600px;
+                    background-color: rgba(240, 229, 221, 0.377);
+                    align-items: center;
+                    border-radius: 10px;
+                    animation-duration: 2s;
+                    animation-name: slide;
+                }
+                .input-container {
+                    text-align: center;
+                    position: relative;
+                    top: 120px;
+                    width: 250px;
+                    left: 85px;
+                }
+                .btn-container {
+                    position: relative;
+                    top: 150px;
+                }
+                .error {
+                    position: relative;
+                    font-size: 18px;
+                    top: 15px;
+                    animation-name: title;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                .true {
+                    position: relative;
+                    font-size: 20px;
+                    top: 15px;
+                    animation-name: title2;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                button {
+                    background-color: rgb(179, 130, 41);
+                }
+                button:hover {
+                    position: relative;
+                    animation-name: btnanime;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+                }
+                .title2 {
+                    position: relative;
+                    top: 50px;
+                    font-size: 50px;
+                    color: rgba(0, 0, 0, 0.753);
+                }
+                .background-div {
+                    height: 966px;
+                    background-position: cover;
+                    background: url("back.jpg");
+                    animation-name: fade;
+                    animation-duration: 2s;
+                }
+                @keyframes title {
+                    50% {
+                        color: rgb(253, 76, 6);
+                    }
+                }
+                @keyframes slide {
+                    0% {
+                        position: relative;
+                        margin-left: -600px;
+                    }
+                    50% {
+                        margin-left: 100%;
+                    }
+                    100% {
+                        margin-left: 733.4px;
+                    }
+                }
+                @keyframes btnanime {
+                    50% {
+                        background-color: rgba(219, 60, 12, 0.274);
+                    }
+                }
+                @keyframes fade {
+                    0% {
+                        position: relative;
+                        margin-top: -2000px;
+                    }
+                    100% {
+                        margin-top: 0px;
+                    }
+                }
+                @keyframes title2 {
+                    50% {
+                        color: rgb(0, 151, 8);
+                    }
+                }
+            }
+            
+            @media screen and (max-width:1919px) and (min-width: 1200px) {
+                body {
+                    text-align: center;
+                    background: url("back.jpg");
+                }
+                .container {
+                    text-align: center;
+                    margin: auto;
+                    position: relative;
+                    top: 140px;
+                    width: 400px;
+                    height: 500px;
+                    background-color: rgba(240, 229, 221, 0.377);
+                    align-items: center;
+                    border-radius: 10px;
+                }
+                .input-container {
+                    margin: auto;
+                    text-align: center;
+                    position: relative;
+                    top: 50px;
+                    width: 250px;
+                }
+                .error {
+                    position: relative;
+                    font-size: 18px;
+                    top: 10px;
+                    animation-name: title;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                .title2 {
+                    position: relative;
+                    top: 30px;
+                    font-size: 25px;
+                    color: rgba(0, 0, 0, 0.753);
+                }
+                .true {
+                    position: relative;
+                    font-size: 20px;
+                    top: 15px;
+                    animation-name: title2;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                .btn-container {
+                    position: relative;
+                    top: 60px;
+                }
+                @keyframes title {
+                    50% {
+                        color: rgb(253, 76, 6);
+                    }
+                }
+                @keyframes title2 {
+                    50% {
+                        color: rgb(0, 151, 8);
+                    }
+                }
+            }
+            
+            @media screen and (max-width:1199px) and (min-width: 765px) {
+                body {
+                    text-align: center;
+                    background: url("back.jpg");
+                }
+                .container {
+                    text-align: center;
+                    margin: auto;
+                    position: relative;
+                    top: 140px;
+                    width: 400px;
+                    height: 500px;
+                    background-color: rgba(240, 229, 221, 0.377);
+                    align-items: center;
+                    border-radius: 10px;
+                }
+                .input-container {
+                    margin: auto;
+                    text-align: center;
+                    position: relative;
+                    top: 50px;
+                    width: 250px;
+                }
+                .error {
+                    position: relative;
+                    font-size: 18px;
+                    top: 10px;
+                    animation-name: title;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                .title2 {
+                    position: relative;
+                    top: 30px;
+                    font-size: 25px;
+                    color: rgba(0, 0, 0, 0.753);
+                }
+                .true {
+                    position: relative;
+                    font-size: 20px;
+                    top: 15px;
+                    animation-name: title2;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                .btn-container {
+                    position: relative;
+                    top: 60px;
+                }
+                @keyframes title {
+                    50% {
+                        color: rgb(253, 76, 6);
+                    }
+                }
+                @keyframes title2 {
+                    50% {
+                        color: rgb(0, 151, 8);
+                    }
+                }
+            }
+            
+            @media screen and (max-width:764px) {
+                body {
+                    text-align: center;
+                    background: url("back.jpg");
+                }
+                .container {
+                    text-align: center;
+                    margin: auto;
+                    position: relative;
+                    top: 140px;
+                    width: 350px;
+                    height: 500px;
+                    background-color: rgba(240, 229, 221, 0.377);
+                    align-items: center;
+                    border-radius: 10px;
+                }
+                .input-container {
+                    margin: auto;
+                    text-align: center;
+                    position: relative;
+                    top: 50px;
+                    width: 250px;
+                }
+                .title2 {
+                    position: relative;
+                    top: 30px;
+                    font-size: 25px;
+                    color: rgba(0, 0, 0, 0.753);
+                }
+                .error {
+                    position: relative;
+                    font-size: 18px;
+                    top: 10px;
+                    animation-name: title;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                .true {
+                    position: relative;
+                    font-size: 20px;
+                    top: 15px;
+                    animation-name: title2;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                .btn-container {
+                    position: relative;
+                    top: 60px;
+                }
+                @keyframes title {
+                    50% {
+                        color: rgb(253, 76, 6);
+                    }
+                }
+            }
+            
+            @keyframes title2 {
+                50% {
+                    color: rgb(0, 151, 8);
+                }
+            }
